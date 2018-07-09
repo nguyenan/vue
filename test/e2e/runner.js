@@ -28,11 +28,8 @@ runner.on('exit', function (code) {
   process.exit(code)
 })
 
-runner.on('error', function (err) {
-  server.close()
-  throw err
-})
 
 // An edited
 // An edited 17:19 Thursday, July 5, 2018 (GMT+7)
 // updated
+// delete some lines
