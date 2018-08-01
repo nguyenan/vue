@@ -12,7 +12,3 @@ if (i > -1) {
 }) 
 // An edited 17:19 Thursday, July 5, 2018 (GMT+7)
 // updated
-// delete some lines
-// add some functions
-789
-//123
