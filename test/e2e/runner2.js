@@ -12,13 +12,7 @@ if (i > -1) {
 
 var runner = spawn('./node_modules/.bin/nightwatch', args, {
   stdio: 'inherit'
-})
-
-runner.on('exit', function (code) {
-  server.close()
-  process.exit(code)
-})
-
+}) 
 runner.on('error', function (err) {
   server.close()
   throw err
@@ -26,4 +20,3 @@ runner.on('error', function (err) {
 // An edited
 // An edited 17:19 Thursday, July 5, 2018 (GMT+7)
 // updated
-// delete some lines
