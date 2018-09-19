@@ -1,5 +1,4 @@
-var path = require('path')
-var spawn = require('cross-spawn')
+var path = require('path') 
 var httpServer = require('http-server')
 var server = httpServer.createServer({
   root: path.resolve(__dirname, '../../')
@@ -7,5 +6,4 @@ var server = httpServer.createServer({
 
 server.listen(8080)
 
-// delete some lines
-// add some functions
+// delete some lines 
