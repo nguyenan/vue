@@ -5,8 +5,6 @@ var server = httpServer.createServer({
   root: path.resolve(__dirname, '../../')
 })
 
-server.listen(8080)
-456
 var args = process.argv.slice(2)
 if (args.indexOf('--config') === -1) {
   args = args.concat(['--config', 'test/e2e/nightwatch.config.js'])
